@@ -3,4 +3,4 @@ This repository includes PyTorch implementations, training processes, and benchm
 
 ## Paper Implementations
 
-* [Denoising Diffusion Probabilistic Models [2020]](https://arxiv.org/abs/2006.11239)
+* [Denoising Diffusion Probabilistic Models (2020)](https://arxiv.org/abs/2006.11239)
