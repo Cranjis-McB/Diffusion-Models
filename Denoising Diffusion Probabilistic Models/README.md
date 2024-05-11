@@ -11,10 +11,11 @@ You can refer to this [Kaggle notebook](https://www.kaggle.com/code/vikramsandu/
 
 ## References
 
-1. [ExplainingAI Implementation GitHub](https://github.com/explainingai-code/DDPM-Pytorch/tree/main)
-2. [ExplainingAI Video Tutorial](https://www.youtube.com/watch?v=vu6eKteJWew&t=330s)
-3. [Original Implementation GitHub](https://github.com/hojonathanho/diffusion/tree/master)
-4. [DDPM Theory](https://github.com/Cranjis-McB/Diffusion-Models/blob/main/Denoising%20Diffusion%20Probabilistic%20Models/theory/theory.ipynb)
-5. [FID GitHub](https://github.com/mseitzer/pytorch-fid/tree/master)
+1. [Original Paper](https://arxiv.org/abs/2006.11239)
+2. [ExplainingAI Implementation GitHub](https://github.com/explainingai-code/DDPM-Pytorch/tree/main)
+3. [ExplainingAI Video Tutorial](https://www.youtube.com/watch?v=vu6eKteJWew&t=330s)
+4. [Original Implementation GitHub](https://github.com/hojonathanho/diffusion/tree/master)
+5. [DDPM Theory](https://github.com/Cranjis-McB/Diffusion-Models/blob/main/Denoising%20Diffusion%20Probabilistic%20Models/theory/theory.ipynb)
+6. [FID GitHub](https://github.com/mseitzer/pytorch-fid/tree/master)
 
 
