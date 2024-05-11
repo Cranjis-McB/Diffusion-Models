@@ -12,7 +12,7 @@ You can refer to this [Kaggle notebook](https://www.kaggle.com/code/vikramsandu/
 ### References
 
 1. [Original Paper](https://arxiv.org/abs/2006.11239)
-2. [Dataset used for Training: Digital Recognizer] (https://www.kaggle.com/competitions/digit-recognizer)
+2. [Dataset used for Training: Digital Recognizer](https://www.kaggle.com/competitions/digit-recognizer)
 3. [ExplainingAI Implementation GitHub](https://github.com/explainingai-code/DDPM-Pytorch/tree/main)
 4. [ExplainingAI Video Tutorial](https://www.youtube.com/watch?v=vu6eKteJWew&t=330s)
 5. [Original Implementation GitHub](https://github.com/hojonathanho/diffusion/tree/master)
