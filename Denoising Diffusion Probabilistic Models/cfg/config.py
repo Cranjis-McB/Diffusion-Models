@@ -19,7 +19,7 @@ class CONFIG:
     
     # Diffusion Process Configuration
     num_timesteps = 1000 # Timesteps in Diffusion Process
-    num_img_to_generate = 1 # Number of Images to Generate after training
+    num_img_to_generate = 256 # Number of Images to Generate after training
     
     # Unet Model Configuration
     t_emb_dim = 128 # Time Embedding Dimension
