@@ -43,9 +43,18 @@ $$ \beta_{t} = 1 - \frac{\bar{\alpha}_{t}}{\bar{\alpha}_{t-1}} $$
 
 * Author chooses to parametrize the variance as an **interpolation of β<sub>t</sub> and β<sup>~</sup><sub>t</sub> in log domain**. (May be experimental?) and the **v** is learnt through neural network as shown below.
 
-![image.png](attachment:ca31f187-ad39-4abf-9739-a11013cc1314.png)
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/a6d244ae-9e70-4651-a52b-bfe18e88a279)
+
 
 * Since current objective of **Simple MSE Loss doesn't depend on the Σ** so author proposed the **hybrid loss which depends on the Σ also**. The hybrid loss is the weighted sum of MSE Loss and Variational Lower bound Loss as shown below.
+
+
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/7b67ec79-b275-4c7c-b9c1-c208dde89d76)
+
+
+* According to the author, **Learning Variance through hybrid loss allowed the diffusion model to sample with fewer steps without much drop in the sample quality.**
+
+* In paper, the author uses **250 reverse steps** during sampling as compared to the 1000 in the DDPM paper. (It mean the sampling time is reduced by 3/4th times). **Note that During training the complete 1000 forward steps are utilized but the sampling is done using 250 reverse steps only**.
 
 ### 3. Improved Sampling Speed
 
