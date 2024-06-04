@@ -29,9 +29,7 @@
 
 * Then Noise Controlling parameter β is calculated by the following equation:
 
-$$
-\beta_{t} = 1 - \frac{\bar{\alpha}_{t}}{\bar{\alpha}_{t-1}}
-$$
+$$ \beta_{t} = 1 - \frac{\bar{\alpha}_{t}}{\bar{\alpha}_{t-1}} $$
 
 ### 2. Learnt Variance through Hybrid-Loss
 
