@@ -59,11 +59,8 @@ $$ \beta_{t} = 1 - \frac{\bar{\alpha}_{t}}{\bar{\alpha}_{t-1}} $$
 
 * when sampling with fewer steps, the parameter β<sub>t</sub> also needs to be modified accordingly as shown below.
 
-![image.png](attachment:f69a60b0-92bd-4d4d-87ee-8000246f4b19.png)
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/193008d5-faff-4008-8040-9b71d1694173)
 
-
-
-![image.png](attachment:701b85c0-280e-4282-9251-ab97f33ad968.png)
 
 * According to the author, **Learning Variance through hybrid loss allowed the diffusion model to sample with fewer steps without much drop in the sample quality.**
 
