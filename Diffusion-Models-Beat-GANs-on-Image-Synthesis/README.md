@@ -18,13 +18,14 @@
 
 * To tackle this issue and make every timestep count, **Cosine Noise Schedular** is proposed which **prevents destroying the whole image information well before reaching the final timestep**.
 
-![image.png](attachment:20f19b6f-81d3-4ef6-bdcd-82dde652f6b0.png)
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/f0aed4d0-5520-44e1-809b-d8ccdb6399dd)
+
 
                        Linear (Top) vs Cosine (Bottom) Schedular
                        
 * Author designs the Cosine Noise Schedular as follows:
 
-![image.png](attachment:070a6660-0ae0-45f2-b298-813f2e10f780.png)
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/b67e7b3f-5554-45c4-ab3c-6054780e5c3c)
 
 * Then Noise Controlling parameter β is calculated by the following equation:
 
