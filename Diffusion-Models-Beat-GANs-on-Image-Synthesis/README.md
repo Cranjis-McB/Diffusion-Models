@@ -23,13 +23,14 @@
 
                        Linear (Top) vs Cosine (Bottom) Schedular
                        
-* Author designs the Cosine Noise Schedular as follows:
+* Author designs the Cosine Noise Scheduler as follows:
 
 ![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/b67e7b3f-5554-45c4-ab3c-6054780e5c3c)
 
 * Then Noise Controlling parameter β is calculated by the following equation:
 
-$$ \beta_{t} = 1 - \frac{\bar{\alpha}_{t}}{\bar{\alpha}_{t-1}} $$
+![image](https://github.com/Cranjis-McB/Diffusion-Models/assets/82195207/5108443b-4f54-4e8c-b31a-9b73ad720761)
+
 
 ### 2. Learnt Variance through Hybrid-Loss
 
